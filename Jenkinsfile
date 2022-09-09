@@ -1,7 +1,7 @@
 pipeline{
   agent{
-    node{
-      node "172.31.42.111"
+    label{
+      label "172.31.42.111"
       customWorkspace "/data/pipeline"
     }
   }
